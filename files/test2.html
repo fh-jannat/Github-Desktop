@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Component -->
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h4 m-0">YourName</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Component -->
+  <section class="hero text-center py-5 bg-light">
+    <div class="container">
+      <h2 class="display-4 animate__animated animate__fadeInDown">Hello, I'm <span class="text-primary">Your Name</span></h2>
+      <p class="lead animate__animated animate__fadeInUp">A Developer crafting beautiful web experiences.</p>
+      <a href="#projects" class="btn btn-primary mt-3 animate__animated animate__fadeIn">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Component -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-4 wow fadeIn">About Me</h3>
+      <p class="wow fadeInUp">I’m a professional developer with experience in modern web technologies like HTML, CSS, JavaScript, React, and Bootstrap. I build responsive and user-friendly web applications.</p>
+    </div>
+  </section>
+
+  <!-- Projects Component -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h3 class="text-center mb-5 wow fadeIn">My Projects</h3>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Project Image">
+            <div class="card-body">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">A brief description about the project and technologies used.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="card h-100">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Project Image">
+            <div class="card-body">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text">A brief description about the project and technologies used.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Component -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-4 wow fadeIn">Contact Me</h3>
+      <form class="mx-auto" style="max-width: 600px">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email" required />
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Component -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
